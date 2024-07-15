@@ -1,10 +1,78 @@
 body {
+  color: white;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #009575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 320px;
+  height: 320px;
+}
+
+.App {
+  text-align: center;
+}
+
+form input {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
+
+form button {
+  margin: 10px auto;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+input {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: unset;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px;
 }
 
 code {
